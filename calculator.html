@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="calculator.css" type="text/css"/>
+</head>
+<body>
+<div class="cont">
+    <div class="box">
+        <div class="top">
+            <input type="text" class="int" id="int" value="0">
+
+        </div>
+
+        <div class="left">
+            <div class="backspace" id="backspace"  onselectstart="return false;">←</div>
+            <div class="cls" id="cls"  onselectstart="return false;">C</div>
+            <div class="cls num"  onselectstart="return false;">7</div>
+            <div class="cls num"  onselectstart="return false;">8</div>
+            <div class="cls num"  onselectstart="return false;">9</div>
+            <div class="cls num"  onselectstart="return false;">4</div>
+            <div class="cls num"  onselectstart="return false;">5</div>
+            <div class="cls num"  onselectstart="return false;">6</div>
+            <div class="cls num"  onselectstart="return false;">1</div>
+            <div class="cls num"  onselectstart="return false;">2</div>
+            <div class="cls num"  onselectstart="return false;">3</div>
+            <div class="cls num" style="width: 65.5%"  onselectstart="return false;">0</div>
+            <div class="cls num" style="width:32.5%"  onselectstart="return false;">.</div>
+        </div>
+        <div class="right">
+            <div class="plus ys"  onselectstart="return false;" id="plus" _p="+">+</div>
+            <div class="minus ys"  onselectstart="return false;" _p="-" id="minus">-</div>
+            <div class="ride ys"  onselectstart="return false;" _p="*" id="ride">*</div>
+            <div class="except ys"  onselectstart="return false;" _p="/" id="except">/</div>
+            <div class="equal ys"  onselectstart="return false;" id="equal" _p="=">=</div>
+        </div>
+
+    </div>
+    <div id="showId"></div>
+</div>
+
+</body>
+</html>
+<script src="calculator.js"></script>

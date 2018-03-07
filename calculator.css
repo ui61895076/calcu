@@ -1,0 +1,122 @@
+body{
+    background: #ccc;
+    cursor: pointer;
+    -moz-user-select:   none;
+
+}
+.cont{
+    width: 500px;
+    margin: 0 auto;
+
+}
+.box{
+    padding: 6px;
+    background:#666;
+    border-radius: 8px;
+    overflow: hidden;
+
+}
+.int{
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    background: #fff;
+    border:none;
+    font-size: 26px;
+   
+    line-height: 40px;
+    color: #333;
+    text-align: right;
+    box-shadow:  2px 2px 7px #333333 inset;
+
+}
+.left{
+    width: 70%;
+
+    height: auto;
+    float: left;
+
+}
+.right{
+    width: 30%;
+
+    height: auto;
+    float: left;
+}
+
+.backspace,.cls{
+    width: 49%;
+    height: 45px;
+    background: #666666;
+    text-align: center;
+    color: #fff;
+    line-height: 45px;
+    float: left;
+    border: 1px solid #fff;
+    transition: 0.5s;
+
+}
+
+.backspace:hover{
+    background: burlywood;
+    transform: scale(0.9);
+}
+
+.cls:hover{
+    background: burlywood;
+    transform: scale(0.9);
+}
+
+.num{
+    width: 32.5%;
+    height: 45px;
+    background: #666666;
+    text-align: center;
+    color: #fff;
+    line-height: 45px;
+    float: left;
+    border: 1px solid #fff;
+
+    transition: 0.5s;
+}
+
+.num:hover{
+    background: burlywood;
+    transform: scale(0.9);
+}
+.plus,.minus,.ride,.except,.equal{
+    width: 98%;
+    height: 45px;
+    background: #666666;
+    text-align: center;
+    color: #fff;
+    line-height: 45px;
+    float: left;
+    border: 1px solid #fff;
+    transition: 0.5s;
+
+}
+
+.equal:hover{
+    background: burlywood;
+    transform: scale(0.9);
+}
+
+ .except:hover{
+    background: burlywood;
+     transform: scale(0.9);
+}
+
+.plus:hover{
+    background: burlywood;
+    transform: scale(0.9);
+}
+
+.minus:hover{
+    background: burlywood;
+    transform: scale(0.9);
+}
+.ride:hover{
+    background: burlywood;
+    transform: scale(0.9);
+}
